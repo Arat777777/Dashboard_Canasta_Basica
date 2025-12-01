@@ -1,12 +1,10 @@
 import pandas as pd
 import mysql.connector
-from datetime import datetime
 
 # ============================
 # CONFIGURACIÓN
 # ============================
-CSV_SORIANA = "dataset/canasta_soriana_transformado.csv"
-CSV_CALIMAX = "dataset/canasta_calimax_transformado.csv"
+CSV_SORIANA = "dataset/canasta_total_limpio.csv"
 
 DB_CONFIG = {
     'host': 'localhost',
@@ -19,7 +17,7 @@ conn = mysql.connector.connect(**DB_CONFIG)
 cursor = conn.cursor(buffered=True)
 
 # ============================
-# FUNCIONES DE APOYO
+# FUNCIONES AUXILIARES
 # ============================
 
 def log(origen, mensaje, tipo="INFO"):
@@ -31,128 +29,108 @@ def log(origen, mensaje, tipo="INFO"):
 def limpiar_precio(valor):
     if pd.isna(valor):
         return 0.00
-    val = str(valor).replace("$", "").replace(",", "").strip()
-    try:
-        return float(val)
-    except:
-        return 0.00
+    return float(str(valor).replace("$", "").replace(",", "").strip())
 
 def safe(v):
-    """Convierte NaN, None, 'nan', '', etc → None"""
-    if v is None:
-        return None
-    if pd.isna(v):
+    if v is None or pd.isna(v):
         return None
     v = str(v).strip()
-    if v.lower() in ["nan", "none", "null", ""]:
-        return None
-    return v
+    return None if v.lower() in ["nan", "none", "null", ""] else v
 
 def obtener_unidad_id(unidad):
-    unidad = safe(unidad)
-    if unidad is None:
+    unidad = safe(unidad) or "pza"
+    unidad = unidad.lower().strip()
+
+    validas = ["ml", "g", "kg", "l", "pza", "pz", "sob"]
+    if unidad not in validas:
         unidad = "pza"
 
-    unidad = str(unidad).lower().strip()
-
-    mapa = {
-        "ml": "ml",
-        "g": "g",
-        "kg": "kg",
-        "l": "l",
-        "pza": "pza",
-        "sob": "sob"
-    }
-
-    if unidad not in mapa:
+    if unidad == "pz":
         unidad = "pza"
 
     cursor.execute("SELECT id FROM unidades WHERE abreviatura=%s", (unidad,))
     res = cursor.fetchone()
     return res[0] if res else None
 
-
 # ============================
-# ETL PRINCIPAL
+# CARGA PRINCIPAL
 # ============================
 
-def insertar_supermercado_y_productos(csv_file, nombre_super, sitio):
+def insertar_supermercado_y_productos(csv_file):
 
-    log("ETL", f"Iniciando carga de {nombre_super}", "INFO")
+    log("ETL", f"Iniciando carga CSV unificado")
 
-    # Insertar supermercado
-    cursor.execute("""
-        INSERT INTO supermercados (nombre, sitio)
-        VALUES (%s, %s)
-        ON DUPLICATE KEY UPDATE sitio = VALUES(sitio)
-    """, (nombre_super, sitio))
-
-    cursor.execute("SELECT id FROM supermercados WHERE nombre=%s", (nombre_super,))
-    supermercado_id = cursor.fetchone()[0]
-
-    # Cargar CSV con None
     df = pd.read_csv(csv_file).where(pd.notnull(pd.read_csv(csv_file)), None)
 
     for index, row in df.iterrows():
 
-        categoria = safe(row.get("Producto buscado"))
-        nombre = safe(row.get("Nombre"))
-        precio = limpiar_precio(row.get("Precio"))
-        presentacion = safe(row.get("Presentación"))
-        unidad = safe(row.get("Unidad"))
-        cantidad = safe(row.get("Cantidad"))
-
-        # 🚫 Si el nombre del producto viene vacío → saltar fila
-        if nombre is None:
-            log("ETL", f"Fila {index} saltada en {nombre_super}: 'nombre' es NULL", "WARNING")
+        nombre_super = safe(row.get("Supermercado"))
+        if nombre_super is None:
+            log("ETL", f"Fila {index} sin supermercado", "WARNING")
             continue
 
-        # Insertar categoría
+        sitio = f"https://{nombre_super.lower().replace(' ', '')}.com"
+
+        # Registrar supermercado
+        cursor.execute("""
+            INSERT INTO supermercados (nombre, sitio)
+            VALUES (%s, %s)
+            ON DUPLICATE KEY UPDATE sitio = VALUES(sitio)
+        """, (nombre_super, sitio))
+
+        cursor.execute("SELECT id FROM supermercados WHERE nombre=%s", (nombre_super,))
+        supermercado_id = cursor.fetchone()[0]
+
+        categoria = safe(row.get("Producto buscado"))
+        nombre = safe(row.get("Nombre"))
+        unidad = safe(row.get("Unidad"))
+        cantidad = row.get("Cantidad")
+        precio = limpiar_precio(row.get("Precio"))
+        precio_x_u = row.get("Precio_por_unidad")
+        promedio_cat = row.get("Promedio_categoria_supermercado")
+
+        if nombre is None:
+            log("ETL", f"Fila {index} saltada: Nombre NULL", "WARNING")
+            continue
+
+        # Categoría
         cursor.execute("""
             INSERT IGNORE INTO categorias (nombre) VALUES (%s)
         """, (categoria,))
-
         cursor.execute("SELECT id FROM categorias WHERE nombre=%s", (categoria,))
         id_categoria = cursor.fetchone()[0]
 
-        # Unidad
         unidad_id = obtener_unidad_id(unidad)
 
         # Insertar producto
         cursor.execute("""
-            INSERT INTO productos (nombre, precio, presentacion, id_categoria, supermercado_id, unidad_id)
-            VALUES (%s, %s, %s, %s, %s, %s)
+            INSERT INTO productos 
+            (nombre, id_categoria, supermercado_id, unidad_id, cantidad, precio, precio_por_unidad, promedio_categoria_supermercado)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
         """, (
-            nombre,
-            precio,
-            presentacion,
-            id_categoria,
-            supermercado_id,
-            unidad_id
+            nombre, id_categoria, supermercado_id, unidad_id,
+            cantidad, precio, precio_x_u, promedio_cat
         ))
 
         producto_id = cursor.lastrowid
 
-        # Historial de precios
+        # Historial
         cursor.execute("""
-            INSERT INTO historial_precios (producto_id, precio, supermercado_id)
-            VALUES (%s, %s, %s)
-        """, (producto_id, precio, supermercado_id))
+            INSERT INTO historial_precios (producto_id, precio, precio_por_unidad, supermercado_id)
+            VALUES (%s, %s, %s, %s)
+        """, (producto_id, precio, precio_x_u, supermercado_id))
 
     conn.commit()
-    log("ETL", f"Finalizó la carga de {nombre_super}", "SUCCESS")
+    log("ETL", f"Carga completada", "SUCCESS")
 
 
 # ============================
 # EJECUCIÓN
 # ============================
 
-insertar_supermercado_y_productos(CSV_SORIANA, "Soriana", "https://www.soriana.com")
-insertar_supermercado_y_productos(CSV_CALIMAX, "Calimax", "https://tienda.calimax.com.mx")
+insertar_supermercado_y_productos(CSV_SORIANA)
 
 cursor.close()
 conn.close()
 
-print("\n✅ TODOS LOS DATOS DE SORIANA Y CALIMAX INSERTADOS EXITOSAMENTE.")
-
-
+print("\n✅ CARGA COMPLETADA EXITOSAMENTE.")

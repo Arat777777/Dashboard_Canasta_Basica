@@ -1,98 +1,81 @@
--- ============================================
---   CREAR BASE DE DATOS
--- ============================================
 CREATE DATABASE IF NOT EXISTS canasta_basica;
 USE canasta_basica;
 
 -- ============================================
---   TABLA: categorias
+-- TABLA: logs
 -- ============================================
-CREATE TABLE IF NOT EXISTS categorias (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    nombre VARCHAR(150) NOT NULL
+CREATE TABLE IF NOT EXISTS logs (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    origen VARCHAR(100),
+    mensaje TEXT,
+    tipo VARCHAR(20),
+    fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
 -- ============================================
---   TABLA: unidades
+-- TABLA: unidades
 -- ============================================
 CREATE TABLE IF NOT EXISTS unidades (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    nombre VARCHAR(50) NOT NULL,
-    abreviatura VARCHAR(10) NOT NULL,
-    UNIQUE KEY (abreviatura)   -- 🔐 importante para ON DUPLICATE
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    abreviatura VARCHAR(10) UNIQUE NOT NULL
 );
 
+INSERT IGNORE INTO unidades (abreviatura) VALUES
+('ml'), ('g'), ('kg'), ('l'), ('pza'), ('sob');
+
 -- ============================================
---   TABLA: supermercados
+-- TABLA: supermercados
 -- ============================================
 CREATE TABLE IF NOT EXISTS supermercados (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    nombre VARCHAR(150) NOT NULL,
-    sitio VARCHAR(255),
-    ubicacion VARCHAR(255) NULL,
-    UNIQUE KEY (nombre)       -- 🔐 evitar duplicados
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) UNIQUE NOT NULL,
+    sitio VARCHAR(255)
 );
 
 -- ============================================
---   TABLA: productos
+-- TABLA: categorias
+-- ============================================
+CREATE TABLE IF NOT EXISTS categorias (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(200) UNIQUE NOT NULL
+);
+
+-- ============================================
+-- TABLA: productos
+-- Basado **exactamente** en tu nuevo dataset
 -- ============================================
 CREATE TABLE IF NOT EXISTS productos (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    nombre VARCHAR(255) NOT NULL,
-    precio DECIMAL(10,2) NOT NULL,
-    presentacion VARCHAR(50),
+    id INT AUTO_INCREMENT PRIMARY KEY,
 
+    -- NUEVO DATASET
+    nombre VARCHAR(300) NOT NULL,
     id_categoria INT,
     supermercado_id INT,
     unidad_id INT,
 
-    fecha_registro DATETIME DEFAULT CURRENT_TIMESTAMP,
+    cantidad FLOAT,
+    precio FLOAT,
+    precio_por_unidad FLOAT,
+    promedio_categoria_supermercado FLOAT,
 
-    FOREIGN KEY (id_categoria) REFERENCES categorias(id)
-        ON UPDATE CASCADE ON DELETE SET NULL,
+    -- Preservado aunque ya no lo usas
+    presentacion VARCHAR(100) NULL,
 
-    FOREIGN KEY (supermercado_id) REFERENCES supermercados(id)
-        ON UPDATE CASCADE ON DELETE CASCADE,
-
+    FOREIGN KEY (id_categoria) REFERENCES categorias(id),
+    FOREIGN KEY (supermercado_id) REFERENCES supermercados(id),
     FOREIGN KEY (unidad_id) REFERENCES unidades(id)
-        ON UPDATE CASCADE ON DELETE SET NULL
 );
 
 -- ============================================
---   TABLA: historial de precios
+-- TABLA: historial de precios
 -- ============================================
 CREATE TABLE IF NOT EXISTS historial_precios (
-    id INT PRIMARY KEY AUTO_INCREMENT,
+    id INT AUTO_INCREMENT PRIMARY KEY,
     producto_id INT NOT NULL,
-    precio DECIMAL(10,2) NOT NULL,
-    fecha DATETIME DEFAULT CURRENT_TIMESTAMP,
-    supermercado_id INT NOT NULL,
-
-    FOREIGN KEY (producto_id) REFERENCES productos(id)
-        ON UPDATE CASCADE ON DELETE CASCADE,
-
+    precio FLOAT NOT NULL,
+    precio_por_unidad FLOAT,
+    fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    supermercado_id INT,
+    FOREIGN KEY (producto_id) REFERENCES productos(id),
     FOREIGN KEY (supermercado_id) REFERENCES supermercados(id)
-        ON UPDATE CASCADE ON DELETE CASCADE
 );
-
--- ============================================
---   TABLA: logs del ETL / scraping
--- ============================================
-CREATE TABLE IF NOT EXISTS logs (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    fecha DATETIME DEFAULT CURRENT_TIMESTAMP,
-    origen VARCHAR(100),
-    mensaje TEXT,
-    tipo VARCHAR(20)
-);
-
--- ============================================
---   INSERTAR UNIDADES ESTÁNDAR
--- ============================================
-INSERT IGNORE INTO unidades (nombre, abreviatura) VALUES
-('Gramos', 'g'),
-('Kilogramos', 'kg'),
-('Mililitros', 'ml'),
-('Litros', 'l'),
-('Pieza', 'pza'),
-('Sobre', 'sob');
