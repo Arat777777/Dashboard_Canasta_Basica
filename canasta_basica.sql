@@ -1,9 +1,7 @@
 CREATE DATABASE IF NOT EXISTS canasta_basica;
 USE canasta_basica;
 
--- ============================================
--- TABLA: logs
--- ============================================
+-- logs
 CREATE TABLE IF NOT EXISTS logs (
     id INT AUTO_INCREMENT PRIMARY KEY,
     origen VARCHAR(100),
@@ -12,9 +10,8 @@ CREATE TABLE IF NOT EXISTS logs (
     fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- ============================================
--- TABLA: unidades
--- ============================================
+
+-- TABLA: unidades de los productos
 CREATE TABLE IF NOT EXISTS unidades (
     id INT AUTO_INCREMENT PRIMARY KEY,
     abreviatura VARCHAR(10) UNIQUE NOT NULL
@@ -23,27 +20,24 @@ CREATE TABLE IF NOT EXISTS unidades (
 INSERT IGNORE INTO unidades (abreviatura) VALUES
 ('ml'), ('g'), ('kg'), ('l'), ('pza'), ('sob');
 
--- ============================================
--- TABLA: supermercados
--- ============================================
+
+-- supermercados
 CREATE TABLE IF NOT EXISTS supermercados (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(100) UNIQUE NOT NULL,
     sitio VARCHAR(255)
 );
 
--- ============================================
--- TABLA: categorias
--- ============================================
+
+-- categorias
+
 CREATE TABLE IF NOT EXISTS categorias (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(200) UNIQUE NOT NULL
 );
 
--- ============================================
--- TABLA: productos
--- Basado **exactamente** en tu nuevo dataset
--- ============================================
+
+--  productos
 CREATE TABLE IF NOT EXISTS productos (
     id INT AUTO_INCREMENT PRIMARY KEY,
 
@@ -58,7 +52,6 @@ CREATE TABLE IF NOT EXISTS productos (
     precio_por_unidad FLOAT,
     promedio_categoria_supermercado FLOAT,
 
-    -- Preservado aunque ya no lo usas
     presentacion VARCHAR(100) NULL,
 
     FOREIGN KEY (id_categoria) REFERENCES categorias(id),
@@ -66,9 +59,9 @@ CREATE TABLE IF NOT EXISTS productos (
     FOREIGN KEY (unidad_id) REFERENCES unidades(id)
 );
 
--- ============================================
--- TABLA: historial de precios
--- ============================================
+
+-- historial de precios
+
 CREATE TABLE IF NOT EXISTS historial_precios (
     id INT AUTO_INCREMENT PRIMARY KEY,
     producto_id INT NOT NULL,
