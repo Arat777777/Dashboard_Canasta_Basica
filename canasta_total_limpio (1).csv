@@ -1,0 +1,137 @@
+Producto buscado,Nombre,Unidad,Cantidad,Precio,Precio_por_unidad,Promedio_categoria_supermercado,Supermercado
+Aceite ,Aceite Comestible Vegetal 1-2-3 1 lt,lt,1.0,36.9,36.9,12.33,Soriana
+Aceite ,Aceite Vegetal Precíssimo,ml,850.0,28.9,0.034,12.33,Soriana
+Aceite ,Aceite Vegetal Nutrioli,ml,850.0,43.9,0.0516,12.33,Soriana
+Arroz ,Arroz Valley Foods súper extra,g,900.0,17.5,0.0194,0.02,Soriana
+Arroz ,Arroz Extra Precíssimo,g,900.0,19.5,0.0217,0.02,Soriana
+Arroz ,Arroz Schettino Super Extra Bol 900gr,g,900.0,25.9,0.0288,0.02,Soriana
+Atún,Ensalada de Atún Sin Mayonesa Valley Foods,g,135.0,19.9,0.1474,0.14,Soriana
+Atún,Ensalada de Atún con Mayonesa Valley Foods,g,135.0,23.9,0.177,0.14,Soriana
+Atún,Atún en Agua Precíssimo,g,130.0,12.0,0.0923,0.14,Soriana
+Azúcar morena,Azúcar Mascabado Zulka 500 Gr,g,500.0,33.5,0.067,26.95,Soriana
+Azúcar morena,Metco Azucar Mascabado Genuino,g,200.0,31.0,0.155,26.95,Soriana
+Azúcar morena,Azúcar Mascabado Metco,kg,1.4,112.9,80.6429,26.95,Soriana
+Bistec de res,Bisteck Estrella de Res Rancho Don Francisco Selecta Kg,kg,1.0,184.0,184.0,219.0,Soriana
+Bistec de res,Bisteck de Res Tampiqueña Rancho Don Francisco Selecta Kg,kg,1.0,269.0,269.0,219.0,Soriana
+Bistec de res,Bisteck/Chuleta del 0 de Res Rancho Don Francisco Selecta Kg,kg,1.0,204.0,204.0,219.0,Soriana
+Cebolla ,Cebolla blanca Kg,kg,1.0,36.0,36.0,31.8,Soriana
+Cebolla ,Cebolla Amarilla Kg,kg,1.0,23.9,23.9,31.8,Soriana
+Cebolla ,Cebolla Morada Kg,kg,1.0,35.5,35.5,31.8,Soriana
+Chile jalapeño,Chile Jalapeño Cuaresmeño Kg,kg,1.0,30.9,30.9,10.34,Soriana
+Chile jalapeño,Rajas De Chiles Jalapeños En Escabeche Clemente Jacques 220 gr,g,220.0,12.5,0.0568,10.34,Soriana
+Chile jalapeño,Chiles Jalapeños En Escabeche Enteros Clemente Jacques 220 gr,g,220.0,13.8,0.0627,10.34,Soriana
+Chuleta de puerco,Chuleta de Lomo de Cerdo Ahumada Kg,kg,1.0,142.9,142.9,128.63,Soriana
+Chuleta de puerco,Chuleta de Cerdo Fresca Kg,kg,1.0,135.0,135.0,128.63,Soriana
+Chuleta de puerco,Chuleta Mixta de Lomo de Cerdo Kg,kg,1.0,108.0,108.0,128.63,Soriana
+Frijol,Frijol Pinto Precíssimo,g,908.0,28.8,0.0317,0.04,Soriana
+Frijol,Frijol pinto Valley Foods,g,900.0,31.9,0.0354,0.04,Soriana
+Frijol,Frijol Peruano,g,908.0,57.5,0.0633,0.04,Soriana
+Huevo de gallina blanco,Huevos Blanco Bachoco Gallina Libre,pz,12.0,59.9,4.9917,4.99,Soriana
+Jabón de tocador,Jabon Neutro Precíssimo,ml,135.0,5.3,0.0393,0.21,Soriana
+Jabón de tocador,Jabón en Barra Palmolive Neutro Balance Dermolimpiador 4 pzas,g,120.0,59.0,0.4917,0.21,Soriana
+Jabón de tocador,Jabón de tocador Caricia 135Gr Neutro,g,135.0,11.5,0.0852,0.21,Soriana
+Jitomate saladet,Jitomate Huaje Saladette Kg,kg,1.0,29.5,29.5,20.17,Soriana
+Jitomate saladet,Jitomate Bola Kg,kg,1.0,30.9,30.9,20.17,Soriana
+Jitomate saladet,Tomate Verde Campo Vivo Orgánico 450 gr,g,450.0,55.9,0.1242,20.17,Soriana
+Leche ,Leche entera Valley Foods,lt,1.0,18.0,18.0,24.94,Soriana
+Leche ,Leche Alpura Deslactosada 1 Paquete con 4 piezas de 1 lt c/u,pza,4.0,109.9,27.475,24.94,Soriana
+Leche ,Leche UHT Lala Deslactosada 1 Litro,pza,6.0,176.0,29.3333,24.94,Soriana
+Limón,Limón sin Semilla Kg,kg,1.0,19.8,19.8,28.83,Soriana
+Limón,Limón con semilla Kg,kg,1.0,24.8,24.8,28.83,Soriana
+Limón,Limón Amarillo Kg,kg,1.0,41.9,41.9,28.83,Soriana
+Manzana,Manzana Red Delicious Kg,kg,1.0,29.9,29.9,25.38,Soriana
+Manzana,Manzana Golden Bolsa,g,100.0,34.0,0.34,25.38,Soriana
+Manzana,Manzana Golden Delicious Kg,kg,1.0,45.9,45.9,25.38,Soriana
+Naranja,Naranja Kg,kg,1.0,24.8,24.8,26.65,Soriana
+Naranja,Bolsa de Basura Precíssimo Naranja Tamaño Grande 62cm X 76cm,pza,60.0,75.0,1.25,26.65,Soriana
+Naranja,Naranja S/Semilla Kg,kg,1.0,53.9,53.9,26.65,Soriana
+Pan de caja,Pan en Barra Blanco Bimbo Grande,g,620.0,44.9,0.0724,0.09,Soriana
+Pan de caja,Pan en Barra Integral Bimbo Grande,g,620.0,52.9,0.0853,0.09,Soriana
+Pan de caja,Pan Artesano Bimbo Grande,g,567.0,57.9,0.1021,0.09,Soriana
+Papa,Papa blanca Kg,kg,1.0,19.8,19.8,26.87,Soriana
+Papa,Papa Morena Kg,kg,1.0,21.0,21.0,26.87,Soriana
+Papa,Papa Cambray Kg,kg,1.0,39.8,39.8,26.87,Soriana
+Papel higiénico,Papel higiénico Quality Day Soft & Roll 40 Rollos,g,100.0,189.9,1.899,1.91,Soriana
+Papel higiénico,Papel Higiénico Regio Luxury Almond Touch 32 rollos,g,100.0,355.0,3.55,1.91,Soriana
+Papel higiénico,Papel higiénico Quality Day Soft & Roll 4 Rollos,g,100.0,27.5,0.275,1.91,Soriana
+Pasta para sopa,Pasta Almeja La Moderna,g,220.0,12.5,0.0568,10.34,Soriana
+Pasta para sopa,Pasta Italpasta Almejas,g,200.0,10.0,0.05,10.34,Soriana
+Pasta para sopa,Sopa Inst De Verdudas Sabor Piquin-Limon,pz,1.0,30.9,30.9,10.34,Soriana
+Pollo entero,Pollo Entero con Visceras Bachoco Precio por Kilo,pz,1.0,38.9,38.9,59.23,Soriana
+Pollo entero,Pollo Entero C/V Pilgrims Kg,kg,1.0,38.9,38.9,59.23,Soriana
+Pollo entero,Pollo Entero Granavia con Adobo Kg,kg,1.0,99.9,99.9,59.23,Soriana
+Sardina en lata,Sardina Valley Foods en Salsa de Tomate,g,425.0,20.0,0.0471,0.07,Soriana
+Sardina en lata,Sardina En Salsa De Tomate Dolores Lata,g,425.0,41.5,0.0976,0.07,Soriana
+Tortilla de maíz,Tortilla de Maíz Blanca,kg,1.0,13.9,13.9,14.43,Soriana
+Tortilla de maíz,Tortilla de Maíz Amarilla,kg,1.0,13.9,13.9,14.43,Soriana
+Tortilla de maíz,Tortilla de Maíz Blanca Taquera,kg,1.0,15.5,15.5,14.43,Soriana
+Zanahoria,Zanahoria Kg,kg,1.0,13.9,13.9,4.69,Soriana
+Zanahoria,Zanahorias La Costeña en Escabeche,g,230.0,15.3,0.0665,4.69,Soriana
+Zanahoria,Zanahoria Baby Vegetalistos,g,340.0,37.5,0.1103,4.69,Soriana
+Aceite ,-24% Aceite Pino Pinol 828- Ml,ml,828.0,27.0,0.0326,0.05,Calimax
+Aceite ,-11% Aceite Puro Canola Canoil 946- Ml,ml,946.0,42.0,0.0444,0.05,Calimax
+Aceite ,Aceite Soya Nutrioli 850- Ml,ml,850.0,52.0,0.0612,0.05,Calimax
+Arroz ,-5% Arroz Super Extra Diamcers 1- Kg,kg,1.0,36.0,36.0,20.68,Calimax
+Arroz ,-9% Arroz Super Extra Verde Valle 900- Gr,g,900.0,40.0,0.0444,20.68,Calimax
+Arroz ,Arroz Super Extra Max Select 0- Kg,pz,1.0,26.0,26.0,20.68,Calimax
+Atún,-13% Atún en Agua Dolores,g,130.0,23.0,0.1769,0.17,Calimax
+Atún,-10% Atún En Agua Dolores 295- Gr,g,295.0,47.0,0.1593,0.17,Calimax
+Atún,-13% Atún en Aceite Dolores,g,130.0,23.0,0.1769,0.17,Calimax
+Azúcar morena,-14% Azucar Mascabado Zulka 500- Gr,g,500.0,28.0,0.056,0.25,Calimax
+Azúcar morena,-40% Azucar Genuino Mascabado Metco 500- Gr,g,500.0,44.0,0.088,0.25,Calimax
+Azúcar morena,Azucar Mascabado Genuino Metco 50- Sob,sob,50.0,31.0,0.62,0.25,Calimax
+Bistec de res,-20% Bistec Paleta De Res Max Grill Por Kg Kilogramos Unidades,kg,1.0,249.0,249.0,252.0,Calimax
+Bistec de res,-30% Bistec Paleta De Res Cortefino Por Kg Kilogramos Unidades,kg,1.0,255.0,255.0,252.0,Calimax
+Cebolla ,Cebolla Blanca Limpia S/Marca Por Kg Kilogramos Unidades,kg,1.0,22.0,22.0,23.0,Calimax
+Cebolla ,Cebolla Morada S/Marca Por Kg Kilogramos Unidades,kg,1.0,25.0,25.0,23.0,Calimax
+Cebolla ,Cebolla Blanca Americana S/Marca 1- Kg Kilogramos Unidades,kg,1.0,22.0,22.0,23.0,Calimax
+Chile jalapeño,-14% Chile JalapeÑO S/Marca Por Kg Kilogramos Unidades,kg,1.0,28.0,28.0,9.38,Calimax
+Chile jalapeño,-14% Chile Jalapeno Para Nachos La Costena 220- Gr,g,220.0,18.0,0.0818,9.38,Calimax
+Chile jalapeño,-10% Chile Jalapeno En Escabeche San Marcos 215-Gr,g,215.0,15.0,0.0698,9.38,Calimax
+Chuleta de puerco,-16% Chuleta Ahumada De Cerdo Por Kg Kilogramos Unidades,kg,1.0,119.0,119.0,194.0,Calimax
+Chuleta de puerco,Chuleta De Cerdo 1- Kg Kilogramos Unidades,kg,1.0,88.0,88.0,194.0,Calimax
+Chuleta de puerco,Chuleta De Rib Eye Cortefino Por Kg Kilogramos Unidades,kg,1.0,375.0,375.0,194.0,Calimax
+Frijol,2 x Frijol Refrito Bayos Isadora 400- Gr,g,400.0,34.0,0.085,17.05,Calimax
+Frijol,- 14% Frijol Peruano Verde Valle 900- Gr,g,900.0,71.0,0.0789,17.05,Calimax
+Frijol,- 6% Frijol Pinto Diamcers 1- Kg,kg,1.0,51.0,51.0,17.05,Calimax
+Huevo de gallina blanco,Huevo Gallina Libre Rancho Gde 12- Pza,pza,12.0,46.0,3.8333,40.22,Calimax
+Huevo de gallina blanco,-7% Huevo Blanco Bachoco 1- Pza,pza,1.0,113.0,113.0,40.22,Calimax
+Huevo de gallina blanco,Huevo Blanco Bachoco 18- Pza,pza,18.0,69.0,3.8333,40.22,Calimax
+Jabón de tocador,Jabon D/Tocador Azul Venus 200- Gr,g,200.0,15.0,0.075,7.64,Calimax
+Jabón de tocador,Jabon Tocador Proteccion Y Cuidado Escudo 110- gr,g,110.0,12.0,0.1091,7.64,Calimax
+Jabón de tocador,-24% Jabon De Tocador Aroma Lavanda Palmolive 4- Pza,pza,4.0,91.0,22.75,7.64,Calimax
+Jitomate saladet,Tomate Saladette S/Marca Por Kg Kilogramos Unidades,kg,1.0,26.0,26.0,8.81,Calimax
+Jitomate saladet,Jabon De Jitomate La Salud 100- Gr,g,100.0,30.0,0.3,8.81,Calimax
+Jitomate saladet,Sh Jitomate Gizeh 400- Ml,ml,400.0,53.0,0.1325,8.81,Calimax
+Leche ,Leche evaporada Carnation Clavel Original lata,g,360.0,23.0,0.0639,25.02,Calimax
+Leche ,-11% Leche Deslactosada Santa Clara 1- Lt,lt,1.0,33.0,33.0,25.02,Calimax
+Leche ,Leche Reducida En Grasa Lala 100 1- Lt,lt,1.0,42.0,42.0,25.02,Calimax
+Limón,-12% Limon Persa S/Marca Por Kg Kilogramos Unidades,kg,1.0,25.0,25.0,42.33,Calimax
+Limón,-12% Limon Mexicano Premium S/Marca Por Kg Kilogramos Unidades,kg,1.0,24.0,24.0,42.33,Calimax
+Limón,Limon Amarillo S/Marca Por Kg Kilogramos Unidades,kg,1.0,78.0,78.0,42.33,Calimax
+Manzana,- 28% Manzana Gala S/Marca Por Kg Kilogramos Unidades,kg,1.0,45.0,45.0,44.33,Calimax
+Manzana,Manzana Verde S/Marca Por Kg Kilogramos Unidades,kg,1.0,47.0,47.0,44.33,Calimax
+Manzana,Manzana Roja S/Marca Por Kg Kilogramos Unidades,kg,1.0,41.0,41.0,44.33,Calimax
+Naranja,Naranja Valencia S/Marca Por Kg Kilogramos Unidades,kg,1.0,33.0,33.0,39.44,Calimax
+Naranja,- 43% Naranja Sin Semilla S/Marca Por Kg Kilogramos Unidades,kg,1.0,59.0,59.0,39.44,Calimax
+Naranja,Naranja Cara Cara S/marca 3- lb,lt,3.0,79.0,26.3333,39.44,Calimax
+Pan de caja,-21% Chile Rajas En Escabeche San Marcos 215-Gr,g,215.0,16.0,0.0744,29.05,Calimax
+Pan de caja,-7% Chile Rajas En Escabeche San Marcos 380- gr,g,380.0,27.0,0.0711,29.05,Calimax
+Pan de caja,Hot & Cold Eye Pads Avocado Cala 1- Pza,pza,1.0,87.0,87.0,29.05,Calimax
+Papa,- 29% Papa Russet S/Marca 1- Kg Kilogramos Unidades,kg,1.0,19.0,19.0,27.67,Calimax
+Papa,Papa Blanca S/Marca Por Kg Kilogramos Unidades,kg,1.0,49.0,49.0,27.67,Calimax
+Papa,Papa Russet En Saco S/Marca 1- Kg Kilogramos Unidades,kg,1.0,15.0,15.0,27.67,Calimax
+Papel higiénico,-28% 2 x Papel Higienico Regular Kleenex 4- Pza,pza,4.0,50.0,12.5,10.03,Calimax
+Papel higiénico,-12% Papel Higienico Regular Kleenex 12- Pza,pza,12.0,94.0,7.8333,10.03,Calimax
+Papel higiénico,-6% Papel Higienico Elegance Xl 16s Cottonelle 16- Pza,pza,16.0,156.0,9.75,10.03,Calimax
+Pasta para sopa,Sopa Spaghetti La Moderna,g,200.0,9.0,0.045,3.02,Calimax
+Pasta para sopa,Sopa Codo a Moderna 200g,lt,2.0,9.0,4.5,3.02,Calimax
+Pasta para sopa,Sopa Fideo a Moderna 200g,lt,2.0,9.0,4.5,3.02,Calimax
+Pollo entero,Pollo Entero Bachoco 1-Kg Kilogramos Unidades,kg,1.0,69.0,69.0,69.0,Calimax
+Sardina en lata,Bebida Lata Sandia Arizona 460- ml,ml,460.0,15.0,0.0326,0.03,Calimax
+Tortilla de maíz,Tortillas de Maíz Mission Blancas,g,729.0,30.0,0.0412,0.05,Calimax
+Tortilla de maíz,Tortillas de Maíz Mission Amarillas,g,729.0,29.0,0.0398,0.05,Calimax
+Tortilla de maíz,Tortillas de Maíz Mission Ligeras Blancas,g,550.0,30.0,0.0545,0.05,Calimax
+Zanahoria,- 44% Zanahoria Empacada S/Marca 1- Pza,pza,1.0,15.0,15.0,32.0,Calimax
+Zanahoria,Zanahoria Baby Sin Marca 1- Pza,pza,1.0,39.0,39.0,32.0,Calimax
+Zanahoria,Zanahoria Rallada S\Marca 1- Lb,lt,1.0,42.0,42.0,32.0,Calimax

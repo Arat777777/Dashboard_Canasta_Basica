@@ -1,0 +1,70 @@
+Supermercado,Nombre,Presentación,Precio,Ciudad,Unidad,Producto buscado,Cantidad,Precio_limpio,Precio_por_unidad,Categoria,Promedio_categoria_supermercado
+Soriana,Aceite Comestible Vegetal 1-2-3 1 lt,1 l,36.9,Tijuana,lt,Aceite ,1.0,36.9,36.9,Aceite ,12.33
+Soriana,Aceite Vegetal Precíssimo,850 ml,28.9,Tijuana,ml,Aceite ,850.0,28.9,0.034,Aceite ,12.33
+Soriana,Aceite Vegetal Nutrioli,850ml,43.9,Tijuana,ml,Aceite ,850.0,43.9,0.0516,Aceite ,12.33
+Soriana,Arroz Valley Foods súper extra,900 g,17.5,Tijuana,g,Arroz ,900.0,17.5,0.0194,Arroz ,0.02
+Soriana,Arroz Extra Precíssimo,900g,19.5,Tijuana,g,Arroz ,900.0,19.5,0.0217,Arroz ,0.02
+Soriana,Arroz Schettino Super Extra Bol 900gr,900 g,25.9,Tijuana,g,Arroz ,900.0,25.9,0.0288,Arroz ,0.02
+Soriana,Ensalada de Atún Sin Mayonesa Valley Foods,135 g,19.9,Tijuana,g,Atún,135.0,19.9,0.1474,Atún,0.14
+Soriana,Ensalada de Atún con Mayonesa Valley Foods,135 g,23.9,Tijuana,g,Atún,135.0,23.9,0.177,Atún,0.14
+Soriana,Atún en Agua Precíssimo,130g,12.0,Tijuana,g,Atún,130.0,12.0,0.0923,Atún,0.14
+Soriana,Azúcar Mascabado Zulka 500 Gr,500 g,33.5,Tijuana,g,Azúcar morena,500.0,33.5,0.067,Azúcar morena,26.95
+Soriana,Metco Azucar Mascabado Genuino,200 g,31.0,Tijuana,g,Azúcar morena,200.0,31.0,0.155,Azúcar morena,26.95
+Soriana,Azúcar Mascabado Metco,1.4 Kg,112.9,Tijuana,kg,Azúcar morena,1.4,112.9,80.6429,Azúcar morena,26.95
+Soriana,Bisteck Estrella de Res Rancho Don Francisco Selecta Kg,1 kg,184.0,Tijuana,kg,Bistec de res,1.0,184.0,184.0,Bistec de res,219.0
+Soriana,Bisteck de Res Tampiqueña Rancho Don Francisco Selecta Kg,1 kg,269.0,Tijuana,kg,Bistec de res,1.0,269.0,269.0,Bistec de res,219.0
+Soriana,Bisteck/Chuleta del 0 de Res Rancho Don Francisco Selecta Kg,1 kg,204.0,Tijuana,kg,Bistec de res,1.0,204.0,204.0,Bistec de res,219.0
+Soriana,Cebolla blanca Kg,1 kg,36.0,Tijuana,kg,Cebolla ,1.0,36.0,36.0,Cebolla ,31.8
+Soriana,Cebolla Amarilla Kg,1 kg,23.9,Tijuana,kg,Cebolla ,1.0,23.9,23.9,Cebolla ,31.8
+Soriana,Cebolla Morada Kg,1 kg,35.5,Tijuana,kg,Cebolla ,1.0,35.5,35.5,Cebolla ,31.8
+Soriana,Chile Jalapeño Cuaresmeño Kg,1 kg,30.9,Tijuana,kg,Chile jalapeño,1.0,30.9,30.9,Chile jalapeño,10.34
+Soriana,Rajas De Chiles Jalapeños En Escabeche Clemente Jacques 220 gr,220 g,12.5,Tijuana,g,Chile jalapeño,220.0,12.5,0.0568,Chile jalapeño,10.34
+Soriana,Chiles Jalapeños En Escabeche Enteros Clemente Jacques 220 gr,220 g,13.8,Tijuana,g,Chile jalapeño,220.0,13.8,0.0627,Chile jalapeño,10.34
+Soriana,Chuleta de Lomo de Cerdo Ahumada Kg,1 kg,142.9,Tijuana,kg,Chuleta de puerco,1.0,142.9,142.9,Chuleta de puerco,128.63
+Soriana,Chuleta de Cerdo Fresca Kg,1 kg,135.0,Tijuana,kg,Chuleta de puerco,1.0,135.0,135.0,Chuleta de puerco,128.63
+Soriana,Chuleta Mixta de Lomo de Cerdo Kg,1 kg,108.0,Tijuana,kg,Chuleta de puerco,1.0,108.0,108.0,Chuleta de puerco,128.63
+Soriana,Frijol Pinto Precíssimo,908g,28.8,Tijuana,g,Frijol,908.0,28.8,0.0317,Frijol,0.04
+Soriana,Frijol pinto Valley Foods,900 g,31.9,Tijuana,g,Frijol,900.0,31.9,0.0354,Frijol,0.04
+Soriana,Frijol Peruano,908g,57.5,Tijuana,g,Frijol,908.0,57.5,0.0633,Frijol,0.04
+Soriana,Huevos Blanco Bachoco Gallina Libre,12 pz,59.9,Tijuana,pz,Huevo de gallina blanco,12.0,59.9,4.9917,Huevo de gallina blanco,4.99
+Soriana,Jabon Neutro Precíssimo,135 ml,5.3,Tijuana,ml,Jabón de tocador,135.0,5.3,0.0393,Jabón de tocador,0.21
+Soriana,Jabón en Barra Palmolive Neutro Balance Dermolimpiador 4 pzas,120 g,59.0,Tijuana,g,Jabón de tocador,120.0,59.0,0.4917,Jabón de tocador,0.21
+Soriana,Jabón de tocador Caricia 135Gr Neutro,135 g,11.5,Tijuana,g,Jabón de tocador,135.0,11.5,0.0852,Jabón de tocador,0.21
+Soriana,Jitomate Huaje Saladette Kg,1 kg,29.5,Tijuana,kg,Jitomate saladet,1.0,29.5,29.5,Jitomate saladet,20.17
+Soriana,Jitomate Bola Kg,1 kg,30.9,Tijuana,kg,Jitomate saladet,1.0,30.9,30.9,Jitomate saladet,20.17
+Soriana,Tomate Verde Campo Vivo Orgánico 450 gr,450 g,55.9,Tijuana,g,Jitomate saladet,450.0,55.9,0.1242,Jitomate saladet,20.17
+Soriana,Leche entera Valley Foods,1 L,18.0,Tijuana,lt,Leche ,1.0,18.0,18.0,Leche ,24.94
+Soriana,Leche Alpura Deslactosada 1 Paquete con 4 piezas de 1 lt c/u,4 pza,109.9,Tijuana,pza,Leche ,4.0,109.9,27.475,Leche ,24.94
+Soriana,Leche UHT Lala Deslactosada 1 Litro,6 Piezas,176.0,Tijuana,pza,Leche ,6.0,176.0,29.3333,Leche ,24.94
+Soriana,Limón sin Semilla Kg,1 kg,19.8,Tijuana,kg,Limón,1.0,19.8,19.8,Limón,28.83
+Soriana,Limón con semilla Kg,1 kg,24.8,Tijuana,kg,Limón,1.0,24.8,24.8,Limón,28.83
+Soriana,Limón Amarillo Kg,1 kg,41.9,Tijuana,kg,Limón,1.0,41.9,41.9,Limón,28.83
+Soriana,Manzana Red Delicious Kg,1 kg,29.9,Tijuana,kg,Manzana,1.0,29.9,29.9,Manzana,25.38
+Soriana,Manzana Golden Bolsa,100 g,34.0,Tijuana,g,Manzana,100.0,34.0,0.34,Manzana,25.38
+Soriana,Manzana Golden Delicious Kg,1 kg,45.9,Tijuana,kg,Manzana,1.0,45.9,45.9,Manzana,25.38
+Soriana,Naranja Kg,1 kg,24.8,Tijuana,kg,Naranja,1.0,24.8,24.8,Naranja,26.65
+Soriana,Bolsa de Basura Precíssimo Naranja Tamaño Grande 62cm X 76cm,60 piezas,75.0,Tijuana,pza,Naranja,60.0,75.0,1.25,Naranja,26.65
+Soriana,Naranja S/Semilla Kg,1 kg,53.9,Tijuana,kg,Naranja,1.0,53.9,53.9,Naranja,26.65
+Soriana,Pan en Barra Blanco Bimbo Grande,620 g,44.9,Tijuana,g,Pan de caja,620.0,44.9,0.0724,Pan de caja,0.09
+Soriana,Pan en Barra Integral Bimbo Grande,620 g,52.9,Tijuana,g,Pan de caja,620.0,52.9,0.0853,Pan de caja,0.09
+Soriana,Pan Artesano Bimbo Grande,567 g,57.9,Tijuana,g,Pan de caja,567.0,57.9,0.1021,Pan de caja,0.09
+Soriana,Papa blanca Kg,1 kg,19.8,Tijuana,kg,Papa,1.0,19.8,19.8,Papa,26.87
+Soriana,Papa Morena Kg,1 kg,21.0,Tijuana,kg,Papa,1.0,21.0,21.0,Papa,26.87
+Soriana,Papa Cambray Kg,1 kg,39.8,Tijuana,kg,Papa,1.0,39.8,39.8,Papa,26.87
+Soriana,Papel higiénico Quality Day Soft & Roll 40 Rollos,100 g,189.9,Tijuana,g,Papel higiénico,100.0,189.9,1.899,Papel higiénico,1.91
+Soriana,Papel Higiénico Regio Luxury Almond Touch 32 rollos,100 g,355.0,Tijuana,g,Papel higiénico,100.0,355.0,3.55,Papel higiénico,1.91
+Soriana,Papel higiénico Quality Day Soft & Roll 4 Rollos,100 g,27.5,Tijuana,g,Papel higiénico,100.0,27.5,0.275,Papel higiénico,1.91
+Soriana,Pasta Almeja La Moderna,220g,12.5,Tijuana,g,Pasta para sopa,220.0,12.5,0.0568,Pasta para sopa,10.34
+Soriana,Pasta Italpasta Almejas,200g,10.0,Tijuana,g,Pasta para sopa,200.0,10.0,0.05,Pasta para sopa,10.34
+Soriana,Sopa Inst De Verdudas Sabor Piquin-Limon,Desconocida,30.9,Tijuana,pz,Pasta para sopa,1.0,30.9,30.9,Pasta para sopa,10.34
+Soriana,Pollo Entero con Visceras Bachoco Precio por Kilo,Desconocida,38.9,Tijuana,pz,Pollo entero,1.0,38.9,38.9,Pollo entero,59.23
+Soriana,Pollo Entero C/V Pilgrims Kg,1 kg,38.9,Tijuana,kg,Pollo entero,1.0,38.9,38.9,Pollo entero,59.23
+Soriana,Pollo Entero Granavia con Adobo Kg,1 kg,99.9,Tijuana,kg,Pollo entero,1.0,99.9,99.9,Pollo entero,59.23
+Soriana,Sardina Valley Foods en Salsa de Tomate,425 g,20.0,Tijuana,g,Sardina en lata,425.0,20.0,0.0471,Sardina en lata,0.07
+Soriana,Sardina En Salsa De Tomate Dolores Lata,425g,41.5,Tijuana,g,Sardina en lata,425.0,41.5,0.0976,Sardina en lata,0.07
+Soriana,Tortilla de Maíz Blanca,1 Kg,13.9,Tijuana,kg,Tortilla de maíz,1.0,13.9,13.9,Tortilla de maíz,14.43
+Soriana,Tortilla de Maíz Amarilla,1 Kg,13.9,Tijuana,kg,Tortilla de maíz,1.0,13.9,13.9,Tortilla de maíz,14.43
+Soriana,Tortilla de Maíz Blanca Taquera,1 Kg,15.5,Tijuana,kg,Tortilla de maíz,1.0,15.5,15.5,Tortilla de maíz,14.43
+Soriana,Zanahoria Kg,1 kg,13.9,Tijuana,kg,Zanahoria,1.0,13.9,13.9,Zanahoria,4.69
+Soriana,Zanahorias La Costeña en Escabeche,230 g,15.3,Tijuana,g,Zanahoria,230.0,15.3,0.0665,Zanahoria,4.69
+Soriana,Zanahoria Baby Vegetalistos,340 g,37.5,Tijuana,g,Zanahoria,340.0,37.5,0.1103,Zanahoria,4.69

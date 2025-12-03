@@ -1,0 +1,68 @@
+Supermercado,Nombre,Presentación,Precio,Ciudad,Unidad,Producto buscado,Cantidad,Precio_limpio,Precio_por_unidad,Categoria,Promedio_categoria_supermercado
+Calimax,-24% Aceite Pino Pinol 828- Ml,828 ml,27.0,Tijuana,ml,Aceite ,828.0,27.0,0.0326,Aceite ,0.05
+Calimax,-11% Aceite Puro Canola Canoil 946- Ml,946 ml,42.0,Tijuana,ml,Aceite ,946.0,42.0,0.0444,Aceite ,0.05
+Calimax,Aceite Soya Nutrioli 850- Ml,850 ml,52.0,Tijuana,ml,Aceite ,850.0,52.0,0.0612,Aceite ,0.05
+Calimax,-5% Arroz Super Extra Diamcers 1- Kg,1 kg,36.0,Tijuana,kg,Arroz ,1.0,36.0,36.0,Arroz ,20.68
+Calimax,-9% Arroz Super Extra Verde Valle 900- Gr,900 g,40.0,Tijuana,g,Arroz ,900.0,40.0,0.0444,Arroz ,20.68
+Calimax,Arroz Super Extra Max Select 0- Kg,Desconocida,26.0,Tijuana,pz,Arroz ,1.0,26.0,26.0,Arroz ,20.68
+Calimax,-13% Atún en Agua Dolores,130 g,23.0,Tijuana,g,Atún,130.0,23.0,0.1769,Atún,0.17
+Calimax,-10% Atún En Agua Dolores 295- Gr,295 g,47.0,Tijuana,g,Atún,295.0,47.0,0.1593,Atún,0.17
+Calimax,-13% Atún en Aceite Dolores,130 g,23.0,Tijuana,g,Atún,130.0,23.0,0.1769,Atún,0.17
+Calimax,-14% Azucar Mascabado Zulka 500- Gr,500 g,28.0,Tijuana,g,Azúcar morena,500.0,28.0,0.056,Azúcar morena,0.25
+Calimax,-40% Azucar Genuino Mascabado Metco 500- Gr,500 g,44.0,Tijuana,g,Azúcar morena,500.0,44.0,0.088,Azúcar morena,0.25
+Calimax,Azucar Mascabado Genuino Metco 50- Sob,50 sob,31.0,Tijuana,sob,Azúcar morena,50.0,31.0,0.62,Azúcar morena,0.25
+Calimax,-20% Bistec Paleta De Res Max Grill Por Kg Kilogramos Unidades,1 kg,249.0,Tijuana,kg,Bistec de res,1.0,249.0,249.0,Bistec de res,252.0
+Calimax,-30% Bistec Paleta De Res Cortefino Por Kg Kilogramos Unidades,1 kg,255.0,Tijuana,kg,Bistec de res,1.0,255.0,255.0,Bistec de res,252.0
+Calimax,Cebolla Blanca Limpia S/Marca Por Kg Kilogramos Unidades,1 kg,22.0,Tijuana,kg,Cebolla ,1.0,22.0,22.0,Cebolla ,23.0
+Calimax,Cebolla Morada S/Marca Por Kg Kilogramos Unidades,1 kg,25.0,Tijuana,kg,Cebolla ,1.0,25.0,25.0,Cebolla ,23.0
+Calimax,Cebolla Blanca Americana S/Marca 1- Kg Kilogramos Unidades,1 kg,22.0,Tijuana,kg,Cebolla ,1.0,22.0,22.0,Cebolla ,23.0
+Calimax,-14% Chile JalapeÑO S/Marca Por Kg Kilogramos Unidades,1 kg,28.0,Tijuana,kg,Chile jalapeño,1.0,28.0,28.0,Chile jalapeño,9.38
+Calimax,-14% Chile Jalapeno Para Nachos La Costena 220- Gr,220 g,18.0,Tijuana,g,Chile jalapeño,220.0,18.0,0.0818,Chile jalapeño,9.38
+Calimax,-10% Chile Jalapeno En Escabeche San Marcos 215-Gr,215 g,15.0,Tijuana,g,Chile jalapeño,215.0,15.0,0.0698,Chile jalapeño,9.38
+Calimax,-16% Chuleta Ahumada De Cerdo Por Kg Kilogramos Unidades,1 kg,119.0,Tijuana,kg,Chuleta de puerco,1.0,119.0,119.0,Chuleta de puerco,194.0
+Calimax,Chuleta De Cerdo 1- Kg Kilogramos Unidades,1 kg,88.0,Tijuana,kg,Chuleta de puerco,1.0,88.0,88.0,Chuleta de puerco,194.0
+Calimax,Chuleta De Rib Eye Cortefino Por Kg Kilogramos Unidades,1 kg,375.0,Tijuana,kg,Chuleta de puerco,1.0,375.0,375.0,Chuleta de puerco,194.0
+Calimax,2 x Frijol Refrito Bayos Isadora 400- Gr,400 g,34.0,Tijuana,g,Frijol,400.0,34.0,0.085,Frijol,17.05
+Calimax,- 14% Frijol Peruano Verde Valle 900- Gr,900 g,71.0,Tijuana,g,Frijol,900.0,71.0,0.0789,Frijol,17.05
+Calimax,- 6% Frijol Pinto Diamcers 1- Kg,1 kg,51.0,Tijuana,kg,Frijol,1.0,51.0,51.0,Frijol,17.05
+Calimax,Huevo Gallina Libre Rancho Gde 12- Pza,12 pza,46.0,Tijuana,pza,Huevo de gallina blanco,12.0,46.0,3.8333,Huevo de gallina blanco,40.22
+Calimax,-7% Huevo Blanco Bachoco 1- Pza,1 pza,113.0,Tijuana,pza,Huevo de gallina blanco,1.0,113.0,113.0,Huevo de gallina blanco,40.22
+Calimax,Huevo Blanco Bachoco 18- Pza,18 pza,69.0,Tijuana,pza,Huevo de gallina blanco,18.0,69.0,3.8333,Huevo de gallina blanco,40.22
+Calimax,Jabon D/Tocador Azul Venus 200- Gr,200 g,15.0,Tijuana,g,Jabón de tocador,200.0,15.0,0.075,Jabón de tocador,7.64
+Calimax,Jabon Tocador Proteccion Y Cuidado Escudo 110- gr,110 g,12.0,Tijuana,g,Jabón de tocador,110.0,12.0,0.1091,Jabón de tocador,7.64
+Calimax,-24% Jabon De Tocador Aroma Lavanda Palmolive 4- Pza,4 pza,91.0,Tijuana,pza,Jabón de tocador,4.0,91.0,22.75,Jabón de tocador,7.64
+Calimax,Tomate Saladette S/Marca Por Kg Kilogramos Unidades,1 kg,26.0,Tijuana,kg,Jitomate saladet,1.0,26.0,26.0,Jitomate saladet,8.81
+Calimax,Jabon De Jitomate La Salud 100- Gr,100 g,30.0,Tijuana,g,Jitomate saladet,100.0,30.0,0.3,Jitomate saladet,8.81
+Calimax,Sh Jitomate Gizeh 400- Ml,400 ml,53.0,Tijuana,ml,Jitomate saladet,400.0,53.0,0.1325,Jitomate saladet,8.81
+Calimax,Leche evaporada Carnation Clavel Original lata,360g,23.0,Tijuana,g,Leche ,360.0,23.0,0.0639,Leche ,25.02
+Calimax,-11% Leche Deslactosada Santa Clara 1- Lt,1 l,33.0,Tijuana,lt,Leche ,1.0,33.0,33.0,Leche ,25.02
+Calimax,Leche Reducida En Grasa Lala 100 1- Lt,1 l,42.0,Tijuana,lt,Leche ,1.0,42.0,42.0,Leche ,25.02
+Calimax,-12% Limon Persa S/Marca Por Kg Kilogramos Unidades,1 kg,25.0,Tijuana,kg,Limón,1.0,25.0,25.0,Limón,42.33
+Calimax,-12% Limon Mexicano Premium S/Marca Por Kg Kilogramos Unidades,1 kg,24.0,Tijuana,kg,Limón,1.0,24.0,24.0,Limón,42.33
+Calimax,Limon Amarillo S/Marca Por Kg Kilogramos Unidades,1 kg,78.0,Tijuana,kg,Limón,1.0,78.0,78.0,Limón,42.33
+Calimax,- 28% Manzana Gala S/Marca Por Kg Kilogramos Unidades,1 kg,45.0,Tijuana,kg,Manzana,1.0,45.0,45.0,Manzana,44.33
+Calimax,Manzana Verde S/Marca Por Kg Kilogramos Unidades,1 kg,47.0,Tijuana,kg,Manzana,1.0,47.0,47.0,Manzana,44.33
+Calimax,Manzana Roja S/Marca Por Kg Kilogramos Unidades,1 kg,41.0,Tijuana,kg,Manzana,1.0,41.0,41.0,Manzana,44.33
+Calimax,Naranja Valencia S/Marca Por Kg Kilogramos Unidades,1 kg,33.0,Tijuana,kg,Naranja,1.0,33.0,33.0,Naranja,39.44
+Calimax,- 43% Naranja Sin Semilla S/Marca Por Kg Kilogramos Unidades,1 kg,59.0,Tijuana,kg,Naranja,1.0,59.0,59.0,Naranja,39.44
+Calimax,Naranja Cara Cara S/marca 3- lb,3 l,79.0,Tijuana,lt,Naranja,3.0,79.0,26.3333,Naranja,39.44
+Calimax,-21% Chile Rajas En Escabeche San Marcos 215-Gr,215 g,16.0,Tijuana,g,Pan de caja,215.0,16.0,0.0744,Pan de caja,29.05
+Calimax,-7% Chile Rajas En Escabeche San Marcos 380- gr,380 g,27.0,Tijuana,g,Pan de caja,380.0,27.0,0.0711,Pan de caja,29.05
+Calimax,Hot & Cold Eye Pads Avocado Cala 1- Pza,1 pza,87.0,Tijuana,pza,Pan de caja,1.0,87.0,87.0,Pan de caja,29.05
+Calimax,- 29% Papa Russet S/Marca 1- Kg Kilogramos Unidades,1 kg,19.0,Tijuana,kg,Papa,1.0,19.0,19.0,Papa,27.67
+Calimax,Papa Blanca S/Marca Por Kg Kilogramos Unidades,1 kg,49.0,Tijuana,kg,Papa,1.0,49.0,49.0,Papa,27.67
+Calimax,Papa Russet En Saco S/Marca 1- Kg Kilogramos Unidades,1 kg,15.0,Tijuana,kg,Papa,1.0,15.0,15.0,Papa,27.67
+Calimax,-28% 2 x Papel Higienico Regular Kleenex 4- Pza,4 pza,50.0,Tijuana,pza,Papel higiénico,4.0,50.0,12.5,Papel higiénico,10.03
+Calimax,-12% Papel Higienico Regular Kleenex 12- Pza,12 pza,94.0,Tijuana,pza,Papel higiénico,12.0,94.0,7.8333,Papel higiénico,10.03
+Calimax,-6% Papel Higienico Elegance Xl 16s Cottonelle 16- Pza,16 pza,156.0,Tijuana,pza,Papel higiénico,16.0,156.0,9.75,Papel higiénico,10.03
+Calimax,Sopa Spaghetti La Moderna,200g,9.0,Tijuana,g,Pasta para sopa,200.0,9.0,0.045,Pasta para sopa,3.02
+Calimax,Sopa Codo a Moderna 200g,2 L,9.0,Tijuana,lt,Pasta para sopa,2.0,9.0,4.5,Pasta para sopa,3.02
+Calimax,Sopa Fideo a Moderna 200g,2 L,9.0,Tijuana,lt,Pasta para sopa,2.0,9.0,4.5,Pasta para sopa,3.02
+Calimax,Pollo Entero Bachoco 1-Kg Kilogramos Unidades,1 kg,69.0,Tijuana,kg,Pollo entero,1.0,69.0,69.0,Pollo entero,69.0
+Calimax,Bebida Lata Sandia Arizona 460- ml,460 ml,15.0,Tijuana,ml,Sardina en lata,460.0,15.0,0.0326,Sardina en lata,0.03
+Calimax,Tortillas de Maíz Mission Blancas,729 g,30.0,Tijuana,g,Tortilla de maíz,729.0,30.0,0.0412,Tortilla de maíz,0.05
+Calimax,Tortillas de Maíz Mission Amarillas,729 g,29.0,Tijuana,g,Tortilla de maíz,729.0,29.0,0.0398,Tortilla de maíz,0.05
+Calimax,Tortillas de Maíz Mission Ligeras Blancas,550 g,30.0,Tijuana,g,Tortilla de maíz,550.0,30.0,0.0545,Tortilla de maíz,0.05
+Calimax,- 44% Zanahoria Empacada S/Marca 1- Pza,1 pza,15.0,Tijuana,pza,Zanahoria,1.0,15.0,15.0,Zanahoria,32.0
+Calimax,Zanahoria Baby Sin Marca 1- Pza,1 pza,39.0,Tijuana,pza,Zanahoria,1.0,39.0,39.0,Zanahoria,32.0
+Calimax,Zanahoria Rallada S\Marca 1- Lb,1 l,42.0,Tijuana,lt,Zanahoria,1.0,42.0,42.0,Zanahoria,32.0
